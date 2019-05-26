@@ -1,0 +1,32 @@
+{
+    "result": "y",
+    "msg": "",
+    "data": [
+        {
+            "text": "<i class='fas fa-sync-alt'></i>刷新",
+            "encoded": false,
+            "url": "javascript:refresh();"
+        },
+        {
+            "text": "<i class='fas fa-expand'></i>全屏",
+            "encoded": false,
+            "cssClass": "fullscreen",
+            "url": "javascript:;"
+        },
+        {
+            "text": "<hr>",
+            "encoded": false
+        },
+        {
+            "text": "<abbr>Littlebee trip [ Admin ]</abbr><img src='img/Trip.png' alt='Trip'>",
+            "encoded": false,
+            "items": [                
+                {
+                    "text": "<i class='fas fa-sign-out-alt'></i>退出登录",
+                    "encoded": false,
+                    "url": "javascript:confirmMsg(\"退出登录\", \"你确定要退出登录吗？\", \"question\", logout);"
+                }
+            ]
+        }
+    ]
+}

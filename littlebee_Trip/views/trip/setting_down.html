@@ -1,0 +1,44 @@
+﻿
+<script id="setting_downTemp" type="text/x-kendo-template">
+    <div class="card">
+        <div class="form-group row card-header">
+            <div class="col-xl-4 text-right"></div>
+            <div class="col-xl-8 text-left">
+                <strong>目前状态: </strong><span data-bind="text:Sys_value1"></span>分钟/次<span style="margin-left:10px;" data-bind="text: Sys_value2 "></span>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="form-group row justify-content-lg-center">
+                <div class="col-xl-4 text-right">分钟：</div>
+                <div class="col-xl-8 text-left">
+                    <input id="txt_Sys_value1" style="width:200px;" class="form-control" data-role="numerictextbox" required data-format="{0:0}" data-min="1" data-bind="value: data.Sys_value1" />
+                </div>
+                <div class="col-xl-12" style="height:20px;"></div>
+
+                <div class="col-xl-4 text-right"></div>
+                <div class="col-xl-8 text-left">
+                    <a id="btnSave" style="width:200px;" data-bind="click: doSave" class="btn btn-primary">
+                        确认修改
+                    </a>
+                </div>
+
+                <div class="col-xl-12" style="height:20px;"></div>
+
+                <div class="col-xl-4 text-right"></div>
+                <div class="col-xl-8 text-left">
+                    <a id="btnOpen" style="width:200px;" data-bind="click: doOpen" class="btn btn-success">
+                        开启
+                    </a>
+                </div>
+                <div class="col-xl-12" style="height:20px;"></div>
+
+                <div class="col-xl-4 text-right"></div>
+                <div class="col-xl-8 text-left">
+                    <a id="btnClose" style="width:200px;" data-bind="click: doClose" class="btn btn-danger">
+                        关闭
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

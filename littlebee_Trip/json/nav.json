@@ -1,0 +1,61 @@
+{
+  "result": "y",
+  "msg": "",
+  "data": [
+    {
+      "id": "10",
+      "text": "<i class='fas fa-cubes'></i><abbr>降仓管理<small>Framework</small></abbr>",
+      "encoded": false,
+      "expanded": true,
+      "items": [
+        {
+          "id": "01001",
+          "text": "降仓订单管理",
+          "encoded": false,
+          "cssClass": "links-form_post",
+          "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_post\");"
+        },
+        {
+          "id": "01002",
+          "text": "降仓设置",
+          "encoded": false,
+          "cssClass": "links-form_ajax",
+          "url": "javascript:linkTo(\"/dashboard/forms/\", \"form_ajax\");"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "text": "系统管理",
+      "encoded": false,
+      "items": [
+        {
+          "id": "1001",
+          "text": "菜单管理"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "角色管理",
+      "encoded": false,
+      "items": [
+        {
+          "id": "2001",
+          "text": "角色列表"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "用户管理",
+      "encoded": false,
+      "items": [
+        {
+          "id": "3001",
+          "text": "用户列表"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+﻿<style scoped>
+    .k-upload .k-upload-files {
+        padding-bottom: 0px;
+    }
+
+    .k-clear-selected, .k-upload-selected {
+        display: none;
+    }
+    .k-upload .k-dropzone .k-upload-status {
+        font-size:12px;
+    }
+</style>
+<script id="excel_convertTemp" type="text/x-kendo-template">
+    <div class="card">
+        <div class="form-group row card-header">
+            <div class="col-xl-12">
+                <strong>Excel 格式转换</strong>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="form-group row justify-content-lg-center">
+
+                <div class="col-xl-12">
+                    <div class="m-auto" style="width:230px;">
+                        <input name="files" id="files" type="file" aria-label="files" />
+                    </div>
+                </div>
+
+                <div class="col-xl-12" style="height:20px;"></div>
+
+                <div class="col-xl-12">
+                    <div class="m-auto" style="width:230px;">
+                        <a id="btnUploadConvert" data-bind="click: doUploadConvert" class="btn btn-primary">
+                            上传及转换
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-12" style="height:20px;"></div>
+                <div class="col-xl-12">
+                    <div class="m-auto" style="width:230px;">
+                        <a id="btnDonwnload" target="_blank" data-bind="attr: { href: downloadUrl}" class="btn btn-danger">
+                            下载
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-12" style="height:20px;"></div>
+
+            </div>
+        </div>
+    </div>
+</script>
